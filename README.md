@@ -1,27 +1,33 @@
-Add-tabs-to-a-product-description-or-page-
-=========================================
+Add tabs to a product description or page or srticle on shopify
+===============================================================
 Step-1:
 Go your product page and enter the below text on your editor:
+
 [[start]]
 DESCRIPTION
 this is description
 [[end]]
+
  [[start]]
 FEATURE
 this is feature
 [[end]]
+
  [[start]]
 SPECIFICATION
 this is sepecificaiton
 [[end]]
+
  [[start]]
 EXTRA SPECIFICATION
 this is extra sepecificaiton
 [[end]]
+
 [[start]]
 OTHER
 this is other
 [[end]]
+
  
 [[start]]
 More
