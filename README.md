@@ -42,9 +42,9 @@ step-3: Add below code where you want to show your tab.
   {% assign split_word = product.description  | remove:'[[start]]' %}
         {% assign words = split_word | split: '[[endtab]]'%}
           
-          {% assign test=words.size|minus:2%}
+          {% assign test=words.size|minus:1%}
           
-          {% for word in words limit:test offset:1%}
+          {% for word in words limit:test offset:0%}
           
            {% assign split_word_word = word | remove: '<h1>'  %}
           {% assign split_word_words = split_word_word | split: '</h1>'| first  %}
